@@ -153,6 +153,18 @@ def main():
         except Exception as e:
             st.error(f"Terjadi kesalahan saat memproses input atau melakukan prediksi: {e}")
 
+<<<<<<< HEAD
 
 if __name__ == '__main__':
     main()
+=======
+    if choice == 'Home':
+        st.subheader('Welcome to The Outliers Project!')
+    elif choice == 'Uber Taxi Fare Prediction':
+        #st.subheader('Lets Predict the Uber Taxi Fare Prediction')
+        run_ml_app()
+
+if __name__ == '__main__':
+    main()
+    
+>>>>>>> 3a9a37a2ae24bf3920debef846b196e94cc09d0f
